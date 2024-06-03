@@ -1,0 +1,11 @@
+{
+	"phpVersion": "8.1",
+	"themes": ["./snow-monkey"],
+	"plugins": ["."],
+	"config": {
+		"WP_DEBUG": true
+	},
+	"mappings": {
+		"sql": "./sql"
+	}
+}

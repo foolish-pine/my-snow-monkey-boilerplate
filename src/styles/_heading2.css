@@ -1,0 +1,13 @@
+.wp-block-heading {
+	display: flex;
+	align-items: center;
+	backdrop-filter: blur(2px);
+
+	&::before {
+		content: "★";
+	}
+}
+
+p {
+	color: gold;
+}

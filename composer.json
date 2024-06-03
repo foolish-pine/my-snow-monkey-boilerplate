@@ -1,0 +1,16 @@
+{
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.10",
+		"wp-coding-standards/wpcs": "^3.1",
+		"phpcompatibility/phpcompatibility-wp": "*"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"scripts": {
+		"lint": "phpcs --standard=./phpcs.xml.dist -n",
+		"format": "phpcbf --standard=./phpcs.xml.dist --report=summary,source"
+	}
+}
