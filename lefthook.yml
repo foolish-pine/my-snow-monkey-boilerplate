@@ -1,0 +1,18 @@
+pre-commit:
+    piped: true
+    commands:
+        1_wp-scripts:lint-style:
+            glob: '*.{css,scss}'
+            run: npx wp-scripts lint-style --fix {staged_files}
+        2_wp-scripts:lint-js:
+            glob: '*.{js,ts}'
+            run: npx wp-scripts lint-js --fix {staged_files}
+        3_wp-scripts:format:
+            glob: '*.{js,ts,css,scss,json,jsonc,yml,md}'
+            run: npx wp-scripts format {staged_files}
+        4_phpcs:
+            glob: '*.php'
+            run: composer lint {staged_files}
+        5_phpcbf:
+            glob: '*.php'
+            run: composer format {staged_files}
