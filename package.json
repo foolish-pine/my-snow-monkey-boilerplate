@@ -1,0 +1,37 @@
+{
+	"name": "my-snow-monkey-boilerplate",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "run-s start:{wp-env,wp-scripts}",
+		"start:wp-env": "wp-env start",
+		"start:wp-scripts": "wp-scripts start --hot",
+		"stop": "wp-env stop",
+		"import-db": "wp-env run cli wp db import sql/env.sql",
+		"export-db": "wp-env run cli wp db export sql/env.sql",
+		"build": "wp-scripts build",
+		"lint": "run-p lint:*",
+		"lint:style": "wp-scripts lint-style",
+		"lint:script": "wp-scripts lint-js",
+		"lint:php": "composer lint",
+		"fix": "run-s fix:{style,script,format,php}",
+		"fix:style": "npm run lint:style -- --fix",
+		"fix:script": "npm run lint:script -- --fix",
+		"fix:format": "wp-scripts format",
+		"fix:php": "composer format"
+	},
+	"devDependencies": {
+		"@wordpress/browserslist-config": "6.0.0",
+		"@wordpress/env": "10.0.0",
+		"@wordpress/prettier-config": "^4.0.0",
+		"@wordpress/scripts": "^28.0.0",
+		"@wordpress/stylelint-config": "^22.0.0",
+		"lefthook": "1.6.15",
+		"npm-run-all2": "6.2.0",
+		"prettier": "npm:wp-prettier@^3.0.3",
+		"stylelint-config-prettier": "^9.0.5",
+		"stylelint-config-recess-order": "^3.1.0"
+	},
+	"volta": {
+		"node": "20.14.0"
+	}
+}
