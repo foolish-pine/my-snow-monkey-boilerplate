@@ -1,0 +1,7 @@
+.cache
+dist
+snow-monkey
+node_modules
+vendor
+package-lock.json
+composer.lock

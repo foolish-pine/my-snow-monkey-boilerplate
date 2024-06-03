@@ -1,0 +1,21 @@
+pre-commit:
+    piped: true
+    commands:
+        1_tsc:
+            glob: '*.ts'
+            run: tsc --noEmit {staged_files}
+        2_eslint:
+            glob: '*.{js,cjs,mjs,ts}'
+            run: ESLINT_USE_FLAT_CONFIG=true npx eslint --fix --quiet {staged_files}
+        3_stylelint:
+            glob: '*.css'
+            run: npx stylelint --fix --quiet {staged_files}
+        4_prettier:
+            glob: '*.{js,cjs,mjs,ts,css,json,jsonc,yml,md}'
+            run: npx prettier --write --log-level=error {staged_files}
+        5_phpcs:
+            glob: '*.php'
+            run: composer lint {staged_files}
+        6_phpcbf:
+            glob: '*.php'
+            run: composer format {staged_files}
