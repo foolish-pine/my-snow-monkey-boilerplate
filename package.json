@@ -20,11 +20,11 @@
 		"fix:php": "composer format"
 	},
 	"devDependencies": {
-		"@wordpress/browserslist-config": "6.1.0",
-		"@wordpress/env": "10.1.0",
-		"@wordpress/prettier-config": "4.1.0",
-		"@wordpress/scripts": "28.1.0",
-		"@wordpress/stylelint-config": "22.1.0",
+		"@wordpress/browserslist-config": "6.2.0",
+		"@wordpress/env": "10.2.0",
+		"@wordpress/prettier-config": "4.2.0",
+		"@wordpress/scripts": "28.2.0",
+		"@wordpress/stylelint-config": "22.2.0",
 		"lefthook": "1.6.18",
 		"npm-run-all2": "6.2.0",
 		"stylelint-config-prettier": "9.0.5",
