@@ -46,63 +46,22 @@ add_action(
 	}
 );
 
-if ( WP_DEBUG ) {
-	add_action(
-		'wp_enqueue_scripts',
-		function () {
-			$asset_file = include MY_SNOW_MONKEY_PATH . '/build/index.asset.php';
-
-			wp_enqueue_script(
-				'my-snow-monkey',
-				'http://localhost:8887/index.js',
-				$asset_file['dependencies'],
-				$asset_file['version'],
-				true
-			);
-
-			wp_enqueue_style(
-				'my-snow-monkey',
-				'http://localhost:8887/style-index.css',
-				array( Framework\Helper::get_main_style_handle() ),
-				filemtime( MY_SNOW_MONKEY_PATH . '/style-index.css' ),
-			);
-		}
-	);
-} else {
-	add_action(
-		'wp_enqueue_scripts',
-		function () {
-			wp_enqueue_script(
-				'my-snow-monkey',
-				MY_SNOW_MONKEY_URL . '/build/index.js',
-				array(),
-				filemtime( MY_SNOW_MONKEY_PATH . '/build/index.js' ),
-				true
-			);
-		}
-	);
-
-	add_action(
-		'wp_enqueue_scripts',
-		function () {
-			wp_enqueue_style(
-				'my-snow-monkey',
-				MY_SNOW_MONKEY_URL . '/build/style.css',
-				array( Framework\Helper::get_main_style_handle() ),
-				filemtime( MY_SNOW_MONKEY_PATH . '/build/style.css' )
-			);
-		}
-	);
-}
-
 add_action(
-	'enqueue_block_editor_assets',
+	'wp_enqueue_scripts',
 	function () {
 		wp_enqueue_style(
 			'my-snow-monkey',
-			MY_SNOW_MONKEY_URL . '/build/style-index.css',
-			null,
-			filemtime( MY_SNOW_MONKEY_PATH . '/build/style-index.css' )
+			MY_SNOW_MONKEY_URL . '/style.css',
+			array( Framework\Helper::get_main_style_handle() ),
+			filemtime( MY_SNOW_MONKEY_PATH . '/style.css' )
 		);
+	}
+);
+
+add_action(
+	'after_setup_theme',
+	function () {
+		add_theme_support( 'editor-styles' );
+		add_editor_style( '/../../plugins/my-snow-monkey/style.css' );
 	}
 );
