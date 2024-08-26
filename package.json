@@ -19,6 +19,7 @@
 		"@wordpress/stylelint-config": "22.6.0",
 		"lefthook": "1.7.14",
 		"npm-run-all2": "6.2.2",
+		"stylelint": "^14.16.1",
 		"stylelint-config-prettier": "9.0.5",
 		"stylelint-config-recess-order": "3.1.0"
 	},
