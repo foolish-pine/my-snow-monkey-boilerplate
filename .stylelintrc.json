@@ -1,6 +1,6 @@
 {
 	"extends": [
-		"@wordpress/stylelint-config/scss",
+		"@wordpress/stylelint-config",
 		"stylelint-config-recess-order",
 		"stylelint-config-prettier"
 	],

@@ -1,0 +1,11 @@
+.p-entry-content > h2 {
+	background-color: #fe0;
+	border-left: none;
+}
+
+html :where(.editor-styles-wrapper) .is-layout-flow > h2.wp-block-heading {
+	background-color: #fe0;
+	border-left: none;
+	-webkit-backdrop-filter: blur(10px);
+	        backdrop-filter: blur(10px);
+}

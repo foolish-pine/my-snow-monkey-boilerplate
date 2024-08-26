@@ -3,7 +3,6 @@
 		"editorconfig.editorconfig",
 		"esbenp.prettier-vscode",
 		"stylelint.vscode-stylelint",
-		"dbaeumer.vscode-eslint",
 		"bmewburn.vscode-intelephense-client",
 		"valeryanm.vscode-phpsab"
 	],

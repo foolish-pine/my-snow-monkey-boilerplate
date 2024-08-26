@@ -1,9 +1,12 @@
 pre-commit:
     piped: true
     commands:
-        4_phpcs:
+        1_stylelint:
+            glob: '*.css'
+            run: npx stylelint --fix --quiet {staged_files}
+        2_phpcs:
             glob: '*.php'
             run: composer lint {staged_files}
-        5_phpcbf:
+        3_phpcbf:
             glob: '*.php'
             run: composer format {staged_files}

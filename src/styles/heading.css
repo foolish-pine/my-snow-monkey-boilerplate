@@ -6,4 +6,5 @@
 html :where(.editor-styles-wrapper) .is-layout-flow > h2.wp-block-heading {
 	background-color: #fe0;
 	border-left: none;
+	backdrop-filter: blur(10px);
 }
