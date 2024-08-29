@@ -1,14 +1,8 @@
 {
 	"phpVersion": "8.1",
-	"themes": [ "./snow-monkey" ],
-	"plugins": [
-		"./my-snow-monkey",
-		"https://downloads.wordpress.org/plugin/wp-multibyte-patch.latest-stable.zip",
-		"https://downloads.wordpress.org/plugin/snow-monkey-blocks.latest-stable.zip",
-		"https://downloads.wordpress.org/plugin/snow-monkey-editor.latest-stable.zip",
-		"https://downloads.wordpress.org/plugin/snow-monkey-forms.latest-stable.zip"
-	],
 	"mappings": {
+		"wp-content/themes/snow-monkey": "./snow-monkey",
+		"wp-content/plugins/my-snow-monkey": "./my-snow-monkey",
 		"sql": "./sql"
 	}
 }
