@@ -4,9 +4,3 @@ pre-commit:
         1_stylelint:
             glob: '*.css'
             run: npx stylelint --fix --quiet {staged_files}
-        2_phpcs:
-            glob: '*.php'
-            run: composer lint {staged_files}
-        3_phpcbf:
-            glob: '*.php'
-            run: composer format {staged_files}

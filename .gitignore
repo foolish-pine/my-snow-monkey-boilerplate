@@ -1,6 +1,5 @@
 # dependencies
 node_modules/
-vendor/
 
 # logs
 npm-debug.log*

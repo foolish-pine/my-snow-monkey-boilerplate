@@ -16,11 +16,9 @@
 		"lint": "run-p lint:*",
 		"lint:stylelint": "stylelint \"**/*.css\"",
 		"lint:prettier": "prettier --check .",
-		"lint:php": "composer lint",
-		"fix": "run-s fix:{stylelint,prettier,php}",
+		"fix": "run-s fix:{stylelint,prettier}",
 		"fix:stylelint": "npm run lint:stylelint -- --fix",
-		"fix:prettier": "prettier --write .",
-		"fix:php": "composer format"
+		"fix:prettier": "prettier --write ."
 	},
 	"devDependencies": {
 		"@wordpress/browserslist-config": "6.6.0",

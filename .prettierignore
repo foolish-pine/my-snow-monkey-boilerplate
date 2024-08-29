@@ -1,7 +1,4 @@
-.cache
 node_modules
-vendor
 package-lock.json
-composer.lock
 snow-monkey
 my-snow-monkey
