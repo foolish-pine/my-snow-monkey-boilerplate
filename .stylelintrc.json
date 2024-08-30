@@ -1,8 +1,0 @@
-{
-	"extends": [
-		"@wordpress/stylelint-config",
-		"stylelint-config-recess-order",
-		"stylelint-config-prettier"
-	],
-	"rules": { "selector-class-pattern": null }
-}
