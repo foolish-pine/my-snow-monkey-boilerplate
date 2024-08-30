@@ -7,7 +7,3 @@ html :where(.editor-styles-wrapper) .is-layout-flow > h2.wp-block-heading {
 	border-bottom: 1px solid #da1e1e;
 	border-left: none;
 }
-
-.test {
-	color: #000;
-}
