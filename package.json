@@ -24,7 +24,7 @@
 		"@wordpress/browserslist-config": "6.8.0",
 		"@wordpress/env": "10.8.0",
 		"@wordpress/prettier-config": "4.8.0",
-		"@wordpress/stylelint-config": "22.7.0",
+		"@wordpress/stylelint-config": "23.0.0",
 		"browser-sync": "3.0.2",
 		"lefthook": "1.7.15",
 		"npm-run-all2": "6.2.3",
