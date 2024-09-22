@@ -34,7 +34,7 @@
 		"postcss-preset-env": "10.0.3",
 		"postcss-sort-media-queries": "5.2.0",
 		"stylelint": "16.9.0",
-		"stylelint-config-recess-order": "5.1.0"
+		"stylelint-config-recess-order": "5.1.1"
 	},
 	"volta": {
 		"node": "20.17.0"
