@@ -17,5 +17,11 @@
 	},
 	"[yml]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"phpsab.standard": "WordPress",
+	"phpsab.executablePathCS": "vendor/bin/phpcs",
+	"phpsab.executablePathCBF": "vendor/bin/phpcbf",
+	"[php]": {
+		"editor.defaultFormatter": "valeryanm.vscode-phpsab"
 	}
 }

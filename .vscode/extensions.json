@@ -2,7 +2,8 @@
 	"recommendations": [
 		"editorconfig.editorconfig",
 		"esbenp.prettier-vscode",
-		"stylelint.vscode-stylelint"
+		"stylelint.vscode-stylelint",
+		"valeryanm.vscode-phpsab"
 	],
 	"unwantedRecommendations": []
 }

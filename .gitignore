@@ -1,5 +1,10 @@
+# build output
+my-snow-monkey/*
+!my-snow-monkey/my-snow-monkey.php
+
 # dependencies
 node_modules/
+vendor/
 
 # logs
 npm-debug.log*

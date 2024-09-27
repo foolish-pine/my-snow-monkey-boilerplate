@@ -17,7 +17,17 @@ jobs:
                   path: node_modules
                   key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
                   restore-keys: ${{ runner.os }}-node-
+            - uses: shivammathur/setup-php@c541c155eee45413f5b09a52248675b1a2575231 # v2
+            - uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4
+              with:
+                  path: vendor
+                  key: ${{ runner.os }}-vendor-${{ hashFiles('**/composer.lock') }}
+                  restore-keys: ${{ runner.os }}-vendor-
             - name: Install Node packages
               run: npm install
+            - name: Install Composer packages
+              run: composer install
             - name: Lint files
               run: npm run lint
+            - name: Lint PHP files
+              run: composer lint
