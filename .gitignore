@@ -17,6 +17,3 @@ pnpm-debug.log*
 # cache
 .cache/*
 !.cache/.gitkeep
-
-# Snow Monkey theme
-snow-monkey/

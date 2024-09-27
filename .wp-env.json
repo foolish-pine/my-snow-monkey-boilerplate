@@ -1,7 +1,6 @@
 {
 	"phpVersion": "8.1",
 	"mappings": {
-		"wp-content/themes/snow-monkey": "./snow-monkey",
 		"wp-content/plugins/my-snow-monkey": "./my-snow-monkey",
 		"sql": "./sql"
 	}
