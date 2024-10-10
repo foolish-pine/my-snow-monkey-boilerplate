@@ -5,8 +5,6 @@
 		"start": "run-s wp-env-start watch",
 		"wp-env-start": "wp-env start",
 		"wp-env-stop": "wp-env stop",
-		"import-db": "wp-env run cli wp db import sql/env.sql",
-		"export-db": "wp-env run cli wp db export sql/env.sql",
 		"postcss": "postcss src/styles/style.css --dir my-snow-monkey",
 		"build": "run-p build:*",
 		"build:styles": "npm run postcss",
