@@ -19,5 +19,5 @@ jobs:
                   restore-keys: ${{ runner.os }}-node-
             - name: Install packages
               run: npm install
-            - name: Build site
+            - name: Build plugin
               run: npm run build
