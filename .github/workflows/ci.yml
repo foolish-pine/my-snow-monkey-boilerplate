@@ -21,7 +21,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Set up PHP
-              uses: shivammathur/setup-php@c541c155eee45413f5b09a52248675b1a2575231 # v2
+              uses: shivammathur/setup-php@9e72090525849c5e82e596468b86eb55e9cc5401 # v2
             - name: Cache vendor
               uses: actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57 # v4
               with:
