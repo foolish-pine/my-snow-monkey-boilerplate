@@ -24,7 +24,7 @@
 		"@wordpress/prettier-config": "4.18.0",
 		"@wordpress/stylelint-config": "23.10.0",
 		"browser-sync": "3.0.3",
-		"lefthook": "1.11.0",
+		"lefthook": "1.11.1",
 		"npm-run-all2": "7.0.2",
 		"postcss": "8.5.3",
 		"postcss-cli": "11.0.0",
