@@ -25,7 +25,7 @@
 		"@wordpress/stylelint-config": "23.14.0",
 		"browser-sync": "3.0.4",
 		"lefthook": "1.11.12",
-		"npm-run-all2": "7.0.2",
+		"npm-run-all2": "8.0.1",
 		"postcss": "8.5.3",
 		"postcss-cli": "11.0.1",
 		"postcss-import": "16.1.0",
