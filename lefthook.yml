@@ -1,11 +1,13 @@
 pre-commit:
-    piped: true
-    commands:
-        1_stylelint:
-            glob: '*.css'
-            run: npx stylelint --fix --quiet {staged_files}
-        2_prettier:
-            run: npx prettier --write --log-level=error --ignore-unknown {staged_files}
-        3_phpcbf:
-            glob: '*.php'
-            run: composer format {staged_files}
+    parallel: true
+    jobs:
+        - name: lint-and-format
+          group:
+              piped: true
+              jobs:
+                  - run: npm run fix:stylelint {staged_files}
+                    glob: '*.css'
+                  - run: npm run fix:prettier --files={staged_files}
+        - name: php-format
+          run: composer format {staged_files}
+          glob: '*.php'
