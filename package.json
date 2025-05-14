@@ -13,7 +13,7 @@
 		"watch:browser-sync": "browser-sync start --proxy \"localhost:8888\" --files \"my-snow-monkey/\"",
 		"lint": "run-p lint:*",
 		"lint:stylelint": "stylelint '**/*.css'",
-		"lint:prettier": "prettier ${npm_config_files:-.} --check --ignore-unknown",
+		"lint:prettier": "prettier . --check --ignore-unknown",
 		"fix": "run-s fix:{stylelint,prettier}",
 		"fix:stylelint": "npm run lint:stylelint -- --fix",
 		"fix:prettier": "npm run lint:prettier -- --write"

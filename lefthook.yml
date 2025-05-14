@@ -5,9 +5,9 @@ pre-commit:
           group:
               piped: true
               jobs:
-                  - run: npm run fix:stylelint {staged_files}
+                  - run: npx stylelint {staged_files} --fix
                     glob: '*.css'
-                  - run: npm run fix:prettier --files={staged_files}
-        - name: php-format
-          run: composer format {staged_files}
+                  - run: npx prettier {staged_files} --write --check --ignore-unknown
+        - name: format-php
+          run: vendor/bin/phpcbf {staged_files} --standard=./phpcs.xml.dist --report=summary,source
           glob: '*.php'
