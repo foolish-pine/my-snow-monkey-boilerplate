@@ -30,7 +30,7 @@
 		"postcss-cli": "11.0.1",
 		"postcss-import": "16.1.0",
 		"postcss-preset-env": "10.2.0",
-		"stylelint": "16.19.1",
+		"stylelint": "16.20.0",
 		"stylelint-config-recess-order": "6.0.0"
 	},
 	"volta": {
