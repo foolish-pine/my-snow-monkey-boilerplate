@@ -19,10 +19,10 @@
 		"fix:prettier": "npm run lint:prettier -- --write"
 	},
 	"devDependencies": {
-		"@wordpress/browserslist-config": "6.26.0",
-		"@wordpress/env": "10.26.0",
-		"@wordpress/prettier-config": "4.26.0",
-		"@wordpress/stylelint-config": "23.18.0",
+		"@wordpress/browserslist-config": "6.27.0",
+		"@wordpress/env": "10.27.0",
+		"@wordpress/prettier-config": "4.27.0",
+		"@wordpress/stylelint-config": "23.19.0",
 		"browser-sync": "3.0.4",
 		"lefthook": "1.12.2",
 		"npm-run-all2": "8.0.4",
