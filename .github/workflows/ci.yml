@@ -14,7 +14,7 @@ jobs:
             - name: Set up Node.js
               uses: volta-cli/action@5c175f92dea6f48441c436471e6479dbc192e194 # v4
             - name: Cache node_modules
-              uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4
+              uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4
               with:
                   path: node_modules
                   key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -22,7 +22,7 @@ jobs:
             - name: Set up PHP
               uses: shivammathur/setup-php@ccf2c627fe61b1b4d924adfcbd19d661a18133a0 # v2
             - name: Cache vendor
-              uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4
+              uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4
               with:
                   path: vendor
                   key: ${{ runner.os }}-vendor-${{ hashFiles('**/composer.lock') }}
