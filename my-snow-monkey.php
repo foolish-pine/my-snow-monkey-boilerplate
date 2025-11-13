@@ -6,7 +6,6 @@
  * Update URI: https://snow-monkey.2inc.org
  *
  * @package my-snow-monkey
- * @author inc2734
  * @license GPL-2.0+
  */
 
