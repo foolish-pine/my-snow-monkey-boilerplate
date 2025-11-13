@@ -1,6 +1,5 @@
 # build output
-my-snow-monkey/*
-!my-snow-monkey/my-snow-monkey.php
+dist/
 
 # dependencies
 node_modules/

@@ -1,6 +1,6 @@
 {
 	"phpVersion": "8.3",
 	"mappings": {
-		"wp-content/plugins/my-snow-monkey": "./my-snow-monkey"
+		"wp-content/plugins/my-snow-monkey": "."
 	}
 }

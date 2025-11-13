@@ -51,9 +51,9 @@ add_action(
 	function () {
 		wp_enqueue_style(
 			'my-snow-monkey',
-			MY_SNOW_MONKEY_URL . '/style.css',
+			MY_SNOW_MONKEY_URL . '/dist/style.css',
 			array( Framework\Helper::get_main_style_handle() ),
-			filemtime( MY_SNOW_MONKEY_PATH . '/style.css' )
+			filemtime( MY_SNOW_MONKEY_PATH . '/dist/style.css' )
 		);
 	}
 );
@@ -62,6 +62,6 @@ add_action(
 	'after_setup_theme',
 	function () {
 		add_theme_support( 'editor-styles' );
-		add_editor_style( '/../../plugins/my-snow-monkey/style.css' );
+		add_editor_style( '/../../plugins/my-snow-monkey/dist/style.css' );
 	}
 );
