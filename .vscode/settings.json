@@ -17,6 +17,9 @@
 	"[yml]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"phpsab.standard": "WordPress",
 	"phpsab.executablePathCS": "vendor/bin/phpcs",
 	"phpsab.executablePathCBF": "vendor/bin/phpcbf",
