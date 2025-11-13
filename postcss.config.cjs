@@ -1,6 +1,10 @@
 module.exports = {
 	plugins: {
-		'postcss-import': {},
 		'postcss-preset-env': {},
+		'postcss-import': {},
+		'postcss-nested': {},
+		cssnano: {
+			preset: 'default',
+		},
 	},
 };
