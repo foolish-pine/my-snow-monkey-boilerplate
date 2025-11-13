@@ -31,7 +31,7 @@
 		"postcss-import": "16.1.1",
 		"postcss-preset-env": "10.4.0",
 		"stylelint": "16.25.0",
-		"stylelint-config-recess-order": "7.3.0"
+		"stylelint-config-recess-order": "7.4.0"
 	},
 	"volta": {
 		"node": "22.19.0"
