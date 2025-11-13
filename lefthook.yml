@@ -7,7 +7,10 @@ pre-commit:
               jobs:
                   - run: npx stylelint {staged_files} --fix
                     glob: '*.css'
+                    stage_fixed: true
                   - run: npx prettier {staged_files} --write --check --ignore-unknown
+                    stage_fixed: true
         - name: format-php
-          run: vendor/bin/phpcbf {staged_files} --standard=./phpcs.xml.dist --report=summary,source
+          run: vendor/bin/phpcbf {staged_files} --standard=./phpcs.xml.dist --report=summary
           glob: '*.php'
+          stage_fixed: true
