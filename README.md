@@ -14,6 +14,7 @@ A development boilerplate based on the official My Snow Monkey plugin template. 
 
 -   [Docker](https://www.docker.com/products/docker-desktop/)
 -   [Volta](https://volta.sh/)
+-   [Composer](https://getcomposer.org/)
 -   [Snow Monkey](https://snow-monkey.2inc.org/) theme (purchased separately)
 
 ## Installation
@@ -21,7 +22,7 @@ A development boilerplate based on the official My Snow Monkey plugin template. 
 1. Clone this repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/foolish-pine/my-snow-monkey-boilerplate
 cd my-snow-monkey-boilerplate
 ```
 
