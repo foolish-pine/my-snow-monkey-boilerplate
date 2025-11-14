@@ -1,7 +1,7 @@
 pre-commit:
     parallel: true
     jobs:
-        - name: lint-and-format
+        - name: lint-and-fix
           group:
               piped: true
               jobs:
@@ -10,7 +10,7 @@ pre-commit:
                     stage_fixed: true
                   - run: npx prettier {staged_files} --write --check --ignore-unknown
                     stage_fixed: true
-        - name: format-php
+        - name: fix-php
           run: vendor/bin/phpcbf {staged_files} --standard=./phpcs.xml.dist --report=summary
           glob: '*.php'
           stage_fixed: true

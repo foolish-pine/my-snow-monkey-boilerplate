@@ -119,7 +119,7 @@ npm run fix:stylelint
 npm run fix:prettier
 
 # Fix PHP issues
-composer format
+composer fix
 ```
 
 ## Customization
