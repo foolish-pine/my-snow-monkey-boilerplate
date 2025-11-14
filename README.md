@@ -14,6 +14,7 @@ A development boilerplate based on the official My Snow Monkey plugin template. 
 
 -   [Docker](https://www.docker.com/products/docker-desktop/)
 -   [Volta](https://volta.sh/)
+-   [PHP](https://www.php.net/) 8.3 or later
 -   [Composer](https://getcomposer.org/)
 -   [Snow Monkey](https://snow-monkey.2inc.org/) theme (purchased separately)
 
