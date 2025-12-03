@@ -1,8 +1,14 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": [ "config:best-practices" ],
-	"minimumReleaseAge": "7 days",
+	"labels": [ "chore" ],
 	"prConcurrentLimit": 1,
 	"prHourlyLimit": 0,
-	"rebaseWhen": "never"
+	"rebaseWhen": "never",
+	"packageRules": [
+		{
+			"matchManagers": [ "github-actions" ],
+			"minimumReleaseAge": null
+		}
+	]
 }
