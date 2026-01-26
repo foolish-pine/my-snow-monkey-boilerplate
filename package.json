@@ -1,5 +1,6 @@
 {
 	"name": "my-snow-monkey-boilerplate",
+	"type": "module",
 	"version": "1.0.0",
 	"scripts": {
 		"wp-env": "wp-env",
