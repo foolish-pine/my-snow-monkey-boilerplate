@@ -18,10 +18,10 @@
 		"fix:prettier": "npm run lint:prettier -- --write"
 	},
 	"devDependencies": {
-		"@wordpress/browserslist-config": "6.38.0",
-		"@wordpress/env": "10.38.0",
-		"@wordpress/prettier-config": "4.38.0",
-		"@wordpress/stylelint-config": "23.30.0",
+		"@wordpress/browserslist-config": "6.39.0",
+		"@wordpress/env": "10.39.0",
+		"@wordpress/prettier-config": "4.39.0",
+		"@wordpress/stylelint-config": "23.31.0",
 		"autoprefixer": "10.4.23",
 		"browser-sync": "3.0.4",
 		"cssnano": "7.1.2",
