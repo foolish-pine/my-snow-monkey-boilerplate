@@ -9,6 +9,14 @@
 		{
 			"matchManagers": [ "github-actions" ],
 			"minimumReleaseAge": null
+		},
+		{
+			"matchPackageNames": [ "postcss", "postcss-*", "cssnano" ],
+			"groupName": "postcss"
+		},
+		{
+			"matchPackageNames": [ "stylelint", "stylelint-*" ],
+			"groupName": "stylelint"
 		}
 	]
 }
