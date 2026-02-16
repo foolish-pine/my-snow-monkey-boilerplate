@@ -4,19 +4,19 @@ A development boilerplate based on the official My Snow Monkey plugin template. 
 
 ## Features
 
--   **Modern CSS Pipeline**: PostCSS with imports, nesting, and automatic vendor prefixing
--   **Code Quality**: Automated linting and formatting for PHP and CSS
--   **Local Development**: WordPress local environment with browser-sync live reload
--   **Git Hooks**: Pre-commit hooks for automatic code formatting and linting
--   **Dependency Management**: Automated dependency updates with Renovate
+- **Modern CSS Pipeline**: PostCSS with imports, nesting, and automatic vendor prefixing
+- **Code Quality**: Automated linting and formatting for PHP and CSS
+- **Local Development**: WordPress local environment with browser-sync live reload
+- **Git Hooks**: Pre-commit hooks for automatic code formatting and linting
+- **Dependency Management**: Automated dependency updates with Renovate
 
 ## Requirements
 
--   [Docker](https://www.docker.com/products/docker-desktop/)
--   [Volta](https://volta.sh/)
--   [PHP](https://www.php.net/) 8.3 or later
--   [Composer](https://getcomposer.org/)
--   [Snow Monkey](https://snow-monkey.2inc.org/) theme (purchased separately)
+- [Docker](https://www.docker.com/products/docker-desktop/)
+- [Volta](https://volta.sh/)
+- [PHP](https://www.php.net/) 8.3 or later
+- [Composer](https://getcomposer.org/)
+- [Snow Monkey](https://snow-monkey.2inc.org/) theme (purchased separately)
 
 ## Installation
 
@@ -73,9 +73,9 @@ npm run watch
 
 This will:
 
--   Watch CSS files and rebuild on changes
--   Start browser-sync proxy server at `http://localhost:3000` (proxying `http://localhost:8888`)
--   Automatically reload the browser when files change
+- Watch CSS files and rebuild on changes
+- Start browser-sync proxy server at `http://localhost:3000` (proxying `http://localhost:8888`)
+- Automatically reload the browser when files change
 
 ## Available Scripts
 
@@ -131,7 +131,7 @@ composer fix
 2. Import them in `src/styles/style.css`:
 
 ```css
-@import url( your-custom-file.css );
+@import url(your-custom-file.css);
 ```
 
 3. Run `npm run build` or `npm run watch` to compile
@@ -144,26 +144,26 @@ This project is optimized for **Visual Studio Code** (or compatible forks like C
 
 ### Recommended Extensions
 
--   [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) - Maintains consistent coding styles
--   [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter
--   [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) - CSS linter
--   [PHP Sniffer & Beautifier](https://marketplace.visualstudio.com/items?itemName=valeryanm.vscode-phpsab) - PHP code formatting and linting
+- [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) - Maintains consistent coding styles
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter
+- [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) - CSS linter
+- [PHP Sniffer & Beautifier](https://marketplace.visualstudio.com/items?itemName=valeryanm.vscode-phpsab) - PHP code formatting and linting
 
 The workspace settings are pre-configured to:
 
--   Format code automatically on save
--   Use WordPress coding standards for PHP
--   Lint and fix CSS with Stylelint
+- Format code automatically on save
+- Use WordPress coding standards for PHP
+- Lint and fix CSS with Stylelint
 
 ## Code Quality
 
 This project follows:
 
--   WordPress Coding Standards for PHP
--   WordPress Stylelint Configuration for CSS
--   WordPress Prettier Configuration for formatting
+- WordPress Coding Standards for PHP
+- WordPress Stylelint Configuration for CSS
+- WordPress Prettier Configuration for formatting
 
 ## Related
 
--   [Snow Monkey Theme](https://snow-monkey.2inc.org/)
--   [Snow Monkey Documentation](https://snow-monkey.2inc.org/manual/)
+- [Snow Monkey Theme](https://snow-monkey.2inc.org/)
+- [Snow Monkey Documentation](https://snow-monkey.2inc.org/manual/)

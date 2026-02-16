@@ -1,21 +1,21 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": [ "config:best-practices" ],
-	"labels": [ "chore" ],
+	"extends": ["config:best-practices"],
+	"labels": ["chore"],
 	"prConcurrentLimit": 1,
 	"prHourlyLimit": 0,
 	"rebaseWhen": "never",
 	"packageRules": [
 		{
-			"matchManagers": [ "github-actions" ],
+			"matchManagers": ["github-actions"],
 			"minimumReleaseAge": null
 		},
 		{
-			"matchPackageNames": [ "postcss", "postcss-*", "cssnano" ],
+			"matchPackageNames": ["postcss", "postcss-*", "cssnano"],
 			"groupName": "postcss"
 		},
 		{
-			"matchPackageNames": [ "stylelint", "stylelint-*" ],
+			"matchPackageNames": ["stylelint", "stylelint-*"],
 			"groupName": "stylelint"
 		}
 	]
