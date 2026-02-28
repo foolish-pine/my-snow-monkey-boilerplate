@@ -22,7 +22,7 @@
 		"@wordpress/env": "11.0.0",
 		"@wordpress/prettier-config": "4.40.0",
 		"@wordpress/stylelint-config": "23.32.0",
-		"autoprefixer": "10.4.24",
+		"autoprefixer": "10.4.27",
 		"browser-sync": "3.0.4",
 		"cssnano": "7.1.2",
 		"lefthook": "2.1.1",
