@@ -27,10 +27,11 @@ git clone https://github.com/foolish-pine/my-snow-monkey-boilerplate
 cd my-snow-monkey-boilerplate
 ```
 
-2. Install Node.js dependencies (git hooks will be automatically set up):
+1. Install Node.js dependencies and set up Git hooks:
 
 ```bash
 npm install
+npx lefthook install
 ```
 
 3. Install PHP dependencies:
@@ -167,3 +168,7 @@ This project follows:
 
 - [Snow Monkey Theme](https://snow-monkey.2inc.org/)
 - [Snow Monkey Documentation](https://snow-monkey.2inc.org/manual/)
+
+## License
+
+[MIT](./LICENSE)
