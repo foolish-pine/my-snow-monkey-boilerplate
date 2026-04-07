@@ -1,7 +1,8 @@
 {
 	"name": "my-snow-monkey-boilerplate",
-	"type": "module",
 	"version": "1.0.0",
+	"private": true,
+	"type": "module",
 	"scripts": {
 		"wp-env": "wp-env",
 		"postcss": "postcss src/styles/style.css --dir dist",
