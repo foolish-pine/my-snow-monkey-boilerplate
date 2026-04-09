@@ -11,12 +11,12 @@
 	},
 	"packageRules": [
 		{
-			"matchPackageNames": ["postcss", "postcss-*", "cssnano"],
-			"groupName": "postcss"
+			"groupName": "PostCSS",
+			"matchPackageNames": ["postcss", "postcss-*", "cssnano"]
 		},
 		{
-			"matchPackageNames": ["stylelint", "stylelint-*"],
-			"groupName": "stylelint"
+			"groupName": "Stylelint",
+			"matchPackageNames": ["stylelint", "stylelint-*"]
 		}
 	]
 }
