@@ -7,19 +7,5 @@
 	"rebaseWhen": "never",
 	"major": {
 		"dependencyDashboardApproval": true
-	},
-	"packageRules": [
-		{
-			"groupName": "PostCSS",
-			"matchPackageNames": ["postcss", "postcss-*", "cssnano"]
-		},
-		{
-			"groupName": "Stylelint",
-			"matchPackageNames": ["stylelint", "stylelint-*"]
-		},
-		{
-			"matchUpdateTypes": ["major"],
-			"groupName": null
-		}
-	]
+	}
 }
