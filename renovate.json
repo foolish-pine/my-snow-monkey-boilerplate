@@ -10,7 +10,7 @@
 	},
 	"packageRules": [
 		{
-			"matchDatasources": ["npm", "github-tags"],
+			"matchDatasources": ["npm", "packagist", "github-tags"],
 			"matchUpdateTypes": ["major", "minor", "patch", "digest"],
 			"minimumReleaseAge": "7 days"
 		}
