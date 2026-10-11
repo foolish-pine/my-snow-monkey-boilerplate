@@ -24,7 +24,7 @@
 		"@wordpress/stylelint-config": "25.0.0",
 		"autoprefixer": "10.6.1",
 		"browser-sync": "3.0.4",
-		"cssnano": "9.2.0",
+		"cssnano": "9.2.1",
 		"lefthook": "2.1.16",
 		"npm-run-all2": "9.0.3",
 		"postcss": "8.5.28",
