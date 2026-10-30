@@ -33,7 +33,7 @@
 		"postcss-nested": "9.0.1",
 		"postcss-preset-env": "11.6.1",
 		"stylelint": "17.16.0",
-		"stylelint-config-recess-order": "7.8.2"
+		"stylelint-config-recess-order": "7.9.0"
 	},
 	"volta": {
 		"node": "24.22.2"
