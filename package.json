@@ -36,6 +36,6 @@
 		"stylelint-config-recess-order": "7.9.0"
 	},
 	"volta": {
-		"node": "24.22.2"
+		"node": "26.13.0"
 	}
 }
